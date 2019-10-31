@@ -4,16 +4,30 @@
   "description": "creating first rest-api project with nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "nodemon app.js"
   },
   "author": "Lawangin Khan",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
-    "express": "^4.17.1"
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "express-validator": "^6.1.1",
+    "graphql": "^14.5.4",
+    "helmet": "^3.21.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.11",
+    "multer": "^1.4.2",
+    "socket.io": "^2.2.0",
+    "validator": "^11.1.0"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.1",
+    "sinon": "^7.5.0"
   }
 }

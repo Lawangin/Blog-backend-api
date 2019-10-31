@@ -1,0 +1,9 @@
+{
+  "env":
+    {
+      "MONGO_USER": "Lawangin",
+      "MONGO_PASS": "iam2ndkhanz",
+      "JWT_SEC_PASS": "somesupersecrettokenmessage"
+    }
+
+}
