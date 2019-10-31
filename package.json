@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "creating first rest-api project with nodejs",
   "main": "index.js",
+  "engines": {
+    "node": "12.4.0"
+  },
   "scripts": {
     "test": "mocha",
     "start": "nodemon app.js"
